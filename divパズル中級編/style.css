@@ -2,49 +2,49 @@ body {
 	width: 100%;
 }
 .wrapper {
-	width: 600px;
+	width: 400px;
 	margin: 0 auto;
 }
 .header {
-	height: 120px;
-	background: #ca1019;
+	height: 100px;
+	background: #ff0000;
 }
 .side {
 	float: left;
-	width: 180px;
-	height: 540px;
-	background: #2935a8;
+	width: 150px;
+	height: 250px;
+	background: #00ff51;
 }
 .content {
 	float: right;
-	width: 420px;
-	height: 540px;
+	width: 250px;
+	height: 250px;
 }
 .content-top-left {
 	float: left;
-	width: 280px;
+	width: 150px;
 }
 .content-top-left-top {
-	height: 250px;
-	background: #EBAA1F;
+	height: 50px;
+	background: #cc00db;
 }
 .content-top-left-bottom {
-	height: 140px;
-	background: #14865F;
+	height: 100px;
+	background: #0093b7;
 }
 .content-top-right {
 	float: right;
-	width: 140px;
-	height: 390px;
-	background: #33B0BF;
+	width: 100px;
+	height: 150px;
+	background: #ff9e6b;
 }
 .content-bottom {
-	height: 150px;
-	background: #C81B54;
+	height: 100px;
+	background: #8c2727;
 }
 .footer {
 	height: 100px;
-	background: #f4d508;
+	background: #fff700;
 }
 .clearfix:after {
 	content: "";
