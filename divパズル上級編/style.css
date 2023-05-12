@@ -8,24 +8,28 @@ body {
 .header {
 	height: 100px;
 	background: #ff0000;
+  z-index: 10;
 }
 .header-inside-top{
   width: 40px;
   height: 40px;
   background: #8c2727;
   padding: 10px;
+  z-index: 20;
 }
 .header-inside-middle{
   width: 40px;
   height: 40px;
   background: #8c2727;
   padding: 10px;
+  z-index: 20;
 }
 .header-inside-bottom{
   width: 40px;
   height: 40px;
   background: #8c2727;
   padding: 10px;
+  z-index: 20;
 }
 .side {
 	float: left;
@@ -38,6 +42,7 @@ body {
 	width: 250px;
 	height: 250px;
   background: #8c2727;
+  z-index: 10;
 }
 .content-inside-top{
 	float: left;
@@ -45,6 +50,7 @@ body {
 	height: 50px;
 	background: #ff9e6b;
   padding: 5px;
+  z-index: 20;
 }
 .content-inside-middle{
 	float: left;
@@ -52,6 +58,7 @@ body {
 	height: 50px;
 	background: #ff9e6b;
   padding: 5px;
+  z-index: 20;
 }
 .content-inside-bottom{
 	float: left;
@@ -59,6 +66,7 @@ body {
 	height: 50px;
 	background: #ff9e6b;
   padding: 5px;
+  z-index: 20;
 }
 .footer {
 	height: 100px;
