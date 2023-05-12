@@ -14,21 +14,21 @@ body {
   width: 40px;
   height: 40px;
   background: #8c2727;
-  padding: 10px;
+  margin: 10px;
   z-index: 20;
 }
 .header-inside-middle{
   width: 40px;
   height: 40px;
   background: #8c2727;
-  padding: 10px;
+  margin: 10px;
   z-index: 20;
 }
 .header-inside-bottom{
   width: 40px;
   height: 40px;
   background: #8c2727;
-  padding: 10px;
+  margin: 10px;
   z-index: 20;
 }
 .side {
@@ -49,7 +49,7 @@ body {
 	width: 150px;
 	height: 50px;
 	background: #ff9e6b;
-  padding: 5px;
+  margin: 5px;
   z-index: 20;
 }
 .content-inside-middle{
@@ -57,7 +57,7 @@ body {
 	width: 150px;
 	height: 50px;
 	background: #ff9e6b;
-  padding: 5px;
+  margin: 5px;
   z-index: 20;
 }
 .content-inside-bottom{
@@ -65,7 +65,7 @@ body {
 	width: 150px;
 	height: 50px;
 	background: #ff9e6b;
-  padding: 5px;
+  margin: 5px;
   z-index: 20;
 }
 .footer {
