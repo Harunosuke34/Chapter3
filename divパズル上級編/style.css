@@ -1,0 +1,45 @@
+body {
+	width: 100%;
+}
+.wrapper {
+	width: 400px;
+	margin: 0 auto;
+}
+.header {
+	height: 100px;
+	background: #ff0000;
+}
+.header-inside{
+  width: 40px;
+  height: 40px;
+  background: #8c2727;
+}
+.side {
+	float: left;
+	width: 150px;
+	height: 250px;
+	background: #00ff51;
+}
+.content {
+	float: left;
+	width: 250px;
+	height: 250px;
+  background: #8c2727;
+}
+.content-inside{
+	float: left;
+	width: 150px;
+	height: 50px;
+	background: #ff9e6b;
+}
+.footer {
+	height: 100px;
+	background: #fff700;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
