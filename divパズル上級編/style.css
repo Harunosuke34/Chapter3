@@ -15,7 +15,7 @@ body {
   height: 40px;
   background: #8c2727;
   border: 5px #ffffff;
-  margin: 10px;
+  margin: 5px;
   z-index: 20;
 }
 .header-inside-middle{
@@ -23,7 +23,7 @@ body {
   height: 40px;
   background: #8c2727;
   border: 5px #ffffff;
-  margin: 10px;
+  margin: 5px;
   z-index: 20;
 }
 .header-inside-right{
@@ -31,7 +31,7 @@ body {
   height: 40px;
   background: #8c2727;
   border: 5px #ffffff;
-  margin: 10px;
+  margin: 5px;
   z-index: 20;
 }
 .side {
