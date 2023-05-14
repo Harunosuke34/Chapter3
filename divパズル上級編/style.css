@@ -12,6 +12,7 @@ body {
   border: 5px #ffffff;
   margin: 5px;
   z-index: 20;
+  position: relative;
 }
 .header-inside-middle{
   width: 40px;
