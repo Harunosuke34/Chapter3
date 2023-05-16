@@ -5,35 +5,35 @@ body {
 	width: 400px;
 	margin: 0 auto;
 }
-.header-inside-left{
-  width: 40px;
-  height: 40px;
-  background: #8c2727;
-  border: 5px #ffffff;
-  margin: 5px;
-  z-index: 20;
-  position: relative;
-}
-.header-inside-middle{
-  width: 40px;
-  height: 40px;
-  background: #8c2727;
-  border: 5px #ffffff;
-  margin: 5px;
-  z-index: 20;
-}
-.header-inside-right{
-  width: 40px;
-  height: 40px;
-  background: #8c2727;
-  border: 5px #ffffff;
-  margin: 5px;
-  z-index: 20;
-}
 .header {
 	height: 100px;
 	background: #ff0000;
   z-index: 10;
+  position: relative;
+}
+.header-inside-left{
+  width: 40px;
+  height: 40px;
+  background-color:  #8c2727;
+  border: solid 10px #ffffff;
+  z-index: 20;
+  position: absolute;top: 20px ;right: 20px;
+}
+.header-inside-middle{
+  width: 40px;
+  height: 40px;
+  background-color: #8c2727;
+  border: solid 10px #ffffff;
+  z-index: 20;
+  position: absolute;top: 20px ;right: 70px;
+}
+.header-inside-right{
+  width: 40px;
+  height: 40px;
+  background-color: #8c2727;
+  border: solid 10px #ffffff;
+  z-index: 20;
+  position: absolute;top: 20px ;right: 120px;
 }
 .side {
 	float: left;
@@ -47,37 +47,38 @@ body {
 	height: 250px;
   background: #8c2727;
   z-index: 10;
+  position: relative;
 }
 .content-inside-top{
-	float: left;
-	width: 150px;
-	height: 50px;
-	background: #ff9e6b;
-  border: 5px #ffffff;
-  margin: 5px;
+	width: 140px;
+	height: 40px;
+	background-color: #ff9e6b;
+  border: solid 5px #ffffff; 
   z-index: 20;
+  position: absolute;top: 40px ;left: 40px;
 }
 .content-inside-middle{
 	float: left;
-	width: 150px;
-	height: 50px;
-	background: #ff9e6b;
-  border: 5px #ffffff;
-  margin: 5px;
+	width: 140px;
+	height: 40px;
+	background-color: #ff9e6b;
+  border: solid 5px #ffffff;
+
   z-index: 20;
+  position: absolute;top: 100px ;left: 40px;
 }
 .content-inside-bottom{
 	float: left;
-	width: 150px;
-	height: 50px;
-	background: #ff9e6b;
-  border: 5px #ffffff;
-  margin: 5px;
+	width: 140px;
+	height: 40px;
+	background-color: #ff9e6b;
+  border: solid 5px #ffffff;
   z-index: 20;
+  position: absolute;top: 160px ;left: 40px;
 }
 .footer {
 	height: 100px;
-	background: #fff700;
+	background: #ffd000;
 }
 .clearfix:after {
 	content: "";
