@@ -11,7 +11,7 @@ body {
   z-index: 10;
   position: relative;
 }
-.header-inside-left{
+#left.header-inside{
   width: 40px;
   height: 40px;
   background-color:  #8c2727;
@@ -19,7 +19,7 @@ body {
   z-index: 20;
   position: absolute;top: 20px ;right: 20px;
 }
-.header-inside-middle{
+#middle.header-inside{
   width: 40px;
   height: 40px;
   background-color: #8c2727;
@@ -27,7 +27,7 @@ body {
   z-index: 20;
   position: absolute;top: 20px ;right: 70px;
 }
-.header-inside-right{
+#right.header-inside{
   width: 40px;
   height: 40px;
   background-color: #8c2727;
@@ -49,7 +49,7 @@ body {
   z-index: 10;
   position: relative;
 }
-.content-inside-top{
+#top.content-inside{
 	width: 140px;
 	height: 40px;
 	background-color: #ff9e6b;
@@ -57,7 +57,7 @@ body {
   z-index: 20;
   position: absolute;top: 40px ;left: 40px;
 }
-.content-inside-middle{
+#middle2.content-inside{
 	float: left;
 	width: 140px;
 	height: 40px;
@@ -67,7 +67,7 @@ body {
   z-index: 20;
   position: absolute;top: 100px ;left: 40px;
 }
-.content-inside-bottom{
+#bottom.content-inside{
 	float: left;
 	width: 140px;
 	height: 40px;
