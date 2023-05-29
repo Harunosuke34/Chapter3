@@ -20,7 +20,7 @@ body {
   padding: 10px;
   
 }
-.header-inside:last-child{
+.header-inside{
   width: 40px;
   height: 40px;
   background-color:  #8c2727;
@@ -28,6 +28,9 @@ body {
   float: left;
   margin-right: 10px;
   
+}
+.header-white:last-child{
+  margin-right:none;
 }
 .side {
 	float: left;
