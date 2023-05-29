@@ -11,29 +11,23 @@ body {
   z-index: 10;
   position: relative;
 }
-#left.header-inside{
+.header-white{
+  width: 150px;
+  height: 40px;
+  background-color: #ffffff;
+  z-index: 15;
+  position: absolute;top: 20px;right: 20px;
+  padding: 10px;
+  
+}
+.header-inside:last-child{
   width: 40px;
   height: 40px;
   background-color:  #8c2727;
-  border: solid 10px #ffffff;
   z-index: 20;
-  position: absolute;top: 20px ;right: 20px;
-}
-#middle.header-inside{
-  width: 40px;
-  height: 40px;
-  background-color: #8c2727;
-  border: solid 10px #ffffff;
-  z-index: 20;
-  position: absolute;top: 20px ;right: 70px;
-}
-#right.header-inside{
-  width: 40px;
-  height: 40px;
-  background-color: #8c2727;
-  border: solid 10px #ffffff;
-  z-index: 20;
-  position: absolute;top: 20px ;right: 120px;
+  float: left;
+  margin-right: 10px;
+  
 }
 .side {
 	float: left;
