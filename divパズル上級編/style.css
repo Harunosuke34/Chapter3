@@ -12,8 +12,6 @@ body {
   position: relative;
 }
 .header-white{
-  width: 150px;
-  height: 40px;
   background-color: #ffffff;
   z-index: 15;
   position: absolute;top: 20px;right: 20px;
@@ -29,8 +27,8 @@ body {
   margin-right: 10px;
   
 }
-.header-white:last-child{
-  margin-right:none;
+.header-inside:last-child{
+  margin-right:0px;
 }
 .side {
 	float: left;
@@ -46,33 +44,20 @@ body {
   z-index: 10;
   position: relative;
 }
-#top.content-inside{
+.content-inside{
 	width: 140px;
 	height: 40px;
 	background-color: #ff9e6b;
   border: solid 5px #ffffff; 
   z-index: 20;
-  position: absolute;top: 40px ;left: 40px;
+  margin-left: 40px;margin-top: 10px; margin-bottom: 10px;
 }
-#middle2.content-inside{
-	float: left;
-	width: 140px;
-	height: 40px;
-	background-color: #ff9e6b;
-  border: solid 5px #ffffff;
 
-  z-index: 20;
-  position: absolute;top: 100px ;left: 40px;
+.content-inside:first-child{
+  margin-top: 40px;
 }
-#bottom.content-inside{
-	float: left;
-	width: 140px;
-	height: 40px;
-	background-color: #ff9e6b;
-  border: solid 5px #ffffff;
-  z-index: 20;
-  position: absolute;top: 160px ;left: 40px;
-}
+
+
 .footer {
 	height: 100px;
 	background: #ffd000;
