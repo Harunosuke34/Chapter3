@@ -8,12 +8,10 @@ body {
 .header {
 	height: 100px;
 	background: #ff0000;
-  z-index: 10;
   position: relative;
 }
 .header-white{
   background-color: #ffffff;
-  z-index: 15;
   position: absolute;top: 20px;right: 20px;
   padding: 10px;
   
@@ -22,7 +20,6 @@ body {
   width: 40px;
   height: 40px;
   background-color:  #8c2727;
-  z-index: 20;
   float: left;
   margin-right: 10px;
   
@@ -41,20 +38,20 @@ body {
 	width: 250px;
 	height: 250px;
   background: #8c2727;
-  z-index: 10;
   position: relative;
 }
+
+.content-unity{
+  margin-top: 40px;
+	margin-left: 40px;
+}
+
 .content-inside{
 	width: 140px;
 	height: 40px;
 	background-color: #ff9e6b;
   border: solid 5px #ffffff; 
-  z-index: 20;
-  margin-left: 40px;margin-top: 10px; margin-bottom: 10px;
-}
-
-.content-inside:first-child{
-  margin-top: 40px;
+  margin-bottom: 10px;
 }
 
 
