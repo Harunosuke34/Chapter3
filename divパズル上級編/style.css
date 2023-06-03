@@ -42,8 +42,7 @@ body {
 }
 
 .content-unity{
-  margin-top: 40px;
-	margin-left: 40px;
+  position: absolute;top: 40px;left: 40px;
 }
 
 .content-inside{
@@ -53,7 +52,6 @@ body {
   border: solid 5px #ffffff; 
   margin-bottom: 10px;
 }
-
 
 .footer {
 	height: 100px;
