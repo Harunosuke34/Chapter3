@@ -14,7 +14,7 @@ body {
   background-color: #ffffff;
   position: absolute;top: 20px;right: 20px;
   padding: 10px;
-  
+  overflow: hidden;
 }
 .header-inside{
   width: 40px;
@@ -43,6 +43,7 @@ body {
 
 .content-unity{
   position: absolute;top: 40px;left: 40px;
+	overflow: hidden; 
 }
 
 .content-inside{
@@ -51,6 +52,9 @@ body {
 	background-color: #ff9e6b;
   border: solid 5px #ffffff; 
   margin-bottom: 10px;
+}
+.content-inside:last-child{
+  margin-bottom:0px;
 }
 
 .footer {
