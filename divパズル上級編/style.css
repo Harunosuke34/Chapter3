@@ -61,7 +61,7 @@ body {
 	height: 100px;
 	background: #ffd000;
 }
-.clearfix:after {
+.clearfix::after {
 	content: "";
 	display: block;
 	clear: both;
